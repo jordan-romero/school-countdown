@@ -27,7 +27,7 @@ const Timer = () => {
 
   return (
     <div>
-      <h1>{timerComponents.length ? timerComponents : <span>Time's up!</span>}</h1>
+      <h1>{timerComponents.length ? timerComponents : <span>Fuck yes! It's SUMMER!</span>}</h1>
     </div>
   )
 }
