@@ -1,5 +1,5 @@
 export const calculateTimeLeft = () => {
-  let year = new Date.getFullYear()
+  let year = new Date().getFullYear()
 
   const timeDifference = +new Date(`05/26/${year}`) - +new Date()
 
